@@ -1,0 +1,28 @@
+body{background-image:url(../img/space.png);margin:0}
+html{height:100%;padding:0;margin:0}
+.b{background-color:red;width:100%;height:100%;overflow:hidden}
+.c{position:fixed;top:5px;bottom:5px;left:10px;right:10px;display:none;z-index:1;overflow:auto;text-align:justify;color:#fff;background-color:#000;font-size:30px;font-family:arial}
+.z{position:fixed;top:5px;bottom:5px;left:10px;right:10px;display:none;z-index:1;overflow:auto;text-align:justify;color:#fff;background-color:#000;font-size:30px;font-family:arial}
+.d{position:absolute;bottom:0;width:100%;height:17.9%;background-image:url(../img/moon.png);background-repeat:repeat}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:15%}
+#coheteapagado{height:80%;margin:auto}
+#coheteencendido{height:80%;margin:auto}
+#hidem{float:right}
+#hidem2{float:right}
+#showm{float:right}
+.e{position:fixed;top:20%;height:13%;left:5%}
+.e img{height:100%}
+#restart{display:none}
+#about{display:none}
+#i{display:none}
+#ganado{position:fixed;top:40%;width:100%;height:10%;display:none}
+#ganado img{width:100%;height:100%}
+#gameover{position:fixed;top:40%;width:100%;height:20%;display:none}
+#gameover img{width:100%;height:100%}
+#instruciones{display:none}
+#acercade{display:none}
+#cpanel{left:0;position:fixed;list-style:none;font-size:15px;color:#3c3;margin-left:0;background-color:#000}
+#cpanel ul{left:0;top:0;margin-top:2px;font-family:arial}
+#instrucciones2{position:fixed;top:2%;right:2%;height:8%}
+#about2{position:fixed;top:12%;right:6%;height:8%}
+#restart2{position:fixed;top:22%;right:8%;height:8%}

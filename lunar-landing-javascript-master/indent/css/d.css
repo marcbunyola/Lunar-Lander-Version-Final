@@ -1,0 +1,161 @@
+body{
+	overflow:hidden;
+	background-image: url("../img/space.png");
+	margin: 0px;
+}
+,html{height:100%;padding:0px;margin:0px;}
+
+
+.c,.z{display:block !important}
+.a,.b,.c{display:inline-block;width:33.33%;height:100%;float:left;}
+.d{
+	position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20%;
+    background-image: url("../img/moon.png");
+	background-repeat: repeat;
+}	
+
+#cpanel{
+	width: 250px;
+	height: 100px;
+	left:20px;
+	background-color: black;
+	color: #33cc33;
+	font-size: 20px;
+	list-style: none;
+}
+
+
+#menu{
+ 	position: absolute;
+ 	height: 100%;
+ 	right: 2%;
+ 	top: 5%;
+
+}
+#menu img{
+	height: 10%;
+	background-color: black;
+}
+
+#nave{ 	text-align: center;
+ 	position: fixed;
+ 	top: 10%;
+ 	width: 100%;
+ 	height: 20%;
+
+
+ }
+
+#coheteapagado { height: 50%; margin: auto;}
+
+#coheteencendido { height: 50%; margin: auto;}
+
+
+#hidem,#showm,#shown2,#about2,#instrucciones2,#restart2{display:none}
+
+.e{
+	position: fixed;
+	top:20%;
+	height: 20%;
+	left:5%;
+}
+
+.e img{
+	height: 100%;
+}
+
+#instrucciones{
+	display: none;
+	position: absolute;
+	top: 25%;
+	bottom: 25%;
+	left: 25%;
+	right: 25%;
+	overflow: auto;
+	text-align: justify;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	border-color: #33cc33;
+	border-style: solid;
+}
+#instrucciones p{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#acercade{
+	display: none;
+	position: absolute;
+	top: 25%;
+	bottom: 25%;
+	left: 25%;
+	right: 25%;
+	overflow: auto;
+	text-align: justify;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	border-color: #33cc33;
+	border-style: solid;
+}
+#acercade p{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+#ganado{
+position: fixed;
+left: 25%;
+top:30%;
+display: none;
+}
+
+
+#ganado img{
+height: 100%;
+}
+
+#gameover{
+position: fixed;
+left: 34%;
+top:30%;
+display: none;
+}
+
+
+#gameover img{
+height: 100%;
+}
+
+#panelver{
+	display: none;
+}
+
+#restartmovil{
+	display: none;
+}
+
+#hidem{
+	display: none;
+}
+
+#hidem2{
+	display: none;
+}
+
+#inst{
+	display: none;
+}
+
+#abo{
+	display: none;
+}
